@@ -5,12 +5,13 @@ public class Main {
         int bonus = 0;
         int grade = 100;
 
-        if (payment > 1000) {;
+        if (payment > 1000) {
             bonus = payment / grade;
         }
 
         balance = balance + payment + bonus;
 
+        System.out.println("Payment: " + payment);
         System.out.println("Bonus: " + bonus);
         System.out.println("Balance: " + balance);
     }
